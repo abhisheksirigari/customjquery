@@ -4,7 +4,6 @@ similar like jquery
 ## Step1: Create a file named mylibrary.js and add below code
 ```javascript
 const $ = (selector) => {
-    let sthis = this;
     const self = {
         element: document.querySelector(selector),
         html: () => self.element,
